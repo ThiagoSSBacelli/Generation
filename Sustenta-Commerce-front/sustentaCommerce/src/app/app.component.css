@@ -1,0 +1,22 @@
+ul.social-network{
+    list-style: nome;
+    display: inline;
+    padding: 0;
+}
+
+ul.social-network li{
+        display: inline;
+        margin: 0;
+        padding: 5px;
+   }
+   .fa{
+       font-size: 35pt;
+       color: rgb(251, 251, 255);
+       padding: 10px;
+   }
+   .fa-linkedin:hover{
+       color: #333ea5;
+   }
+   .fa-github:hover{
+       color: #333ea5;
+   }
