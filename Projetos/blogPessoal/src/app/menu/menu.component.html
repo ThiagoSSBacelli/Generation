@@ -14,12 +14,12 @@
             <ul class="navbar-nav mr-auto d-flex align-items-center">
 
                 <li class="nav-item active">
-                    <img src="https://imgur.com/UUogKuo.jpg" alt="Foto do Blog" width="50px" 
+                    <img src="{{foto}}" alt="Foto do Blog" width="50px" 
                     height="50px" class="img-fluid rounded-circle">
                 </li>
 
                 <li class="nav-item pl-3 ">
-                    <p class="m-0 font-weigth-bold text-white fs-16">Nome do usuario</p>
+                    <p class="m-0 font-weigth-bold text-white fs-16">{{nome}}</p>
                 </li>
 
                 <li class="nav-item pl-3">
@@ -33,7 +33,7 @@
 
           <ul class="navbar-nav ml-auto d-flex align-items-center">
             <li class="nav-item pl-6">
-                <a class="m-0 font-weigth-bold text-white fs-16">Sair <i class="fa fa-sign-out"
+                <a (click)='sair()' class="m-0 font-weigth-bold text-white fs-16">Sair <i class="fa fa-sign-out"
                 aria-hidden= true> </i> </a>
             </li>
         </ul>
