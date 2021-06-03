@@ -5,6 +5,7 @@ import { EntrarComponent } from './entrar/entrar.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { TemaComponent } from './tema/tema.component';
 
+
 const routes: Routes = [
 
   {path: '', redirectTo:'entrar', pathMatch: 'full'},
