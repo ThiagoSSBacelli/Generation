@@ -1,6 +1,6 @@
 import { Postagem } from "./Postagem"
 
-export class tema {
+export class Tema {
 
     public id: number
     public descricao: String
